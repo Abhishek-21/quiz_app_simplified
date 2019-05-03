@@ -1,0 +1,291 @@
+body,html {
+    overflow: none;
+}
+button {
+    background: rgb(66, 182, 70);
+    border: none;
+    padding: 1em;
+    width: 8em;
+    border-radius:10px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 0.9em;
+}
+
+button:hover {
+    background: rgba(66, 182, 70, 0.815);
+}
+#home-page-container{
+    margin: 0px;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 0, 0, 0.664)), url('take-the-quiz-1.png') no-repeat center center;
+    height: 100vh;
+    font-size: 1em;
+    overflow: hidden; 
+}
+
+#header-container{
+    text-align: center;
+    background: rgba(226, 222, 222, 0.377);
+    border: 1px solid rgba(0, 0, 0, 0.245);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
+    border-radius: 6px;
+}
+
+#header-container ul,
+#header-container li{
+    width: 100%;
+    margin: 0px;
+    list-style: none;
+    display: inline-block;
+    margin: 0px 8px;
+    padding: 10px;
+}
+#header-container ul {
+     margin: 0px;
+     padding: 5px 0px;
+ }
+
+ #header-container li {
+    text-align: center;
+    width: 10%;
+    box-shadow: 4px 2px 5px  rgba(0, 0, 0, 0.507);
+    border-radius: 10px;
+    background: rgba(245, 242, 242, 0.432);
+    color: rgba(0, 0, 0, 0.726);
+    cursor: pointer;
+}
+
+#model-container-background {
+    margin: 3px 0px;
+    padding: 6% 0px;
+    background:rgba(0, 0, 0, 0.644);
+    height: 92vh;
+    box-sizing: border-box;
+}
+
+#model-container {
+    font-size: 1rem;
+    width: 40%;
+    text-align: right;
+    margin: 0 auto;
+    height: 70%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(56, 55, 55),rgb(24, 23, 23));
+    display:table;
+}
+
+#model-container table {
+    background: linear-gradient(to right, rgb(56, 55, 55),rgb(24, 23, 23));
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#model-container button
+,#add-value-container table button {
+    background: rgb(66, 182, 70);
+    border: none;
+    padding: 1em;
+    width: 13em;
+    border-radius:10px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 0.9em;
+}
+#model-container button:hover,
+#add-value-container table button:hover {
+    box-shadow: -4px 5px 6px rgba(109, 106, 106, 0.452);
+}
+
+#model-header,
+.model-header2 {
+    padding: 1rem 1rem;
+    box-sizing: border-box;
+}
+#model-header span,
+.model-header2 span {
+    background: red;
+    padding: 0.3rem 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#add-value-container-background,
+#view-value-container-background {
+    margin: 2px 0px;
+    padding: 4% 0px;
+    background:rgba(0, 0, 0, 0.644);
+    height: 92vh;
+    box-sizing: border-box;
+}
+
+#add-value-container {
+    font-size: 1rem;
+    width: 50%;
+    text-align: right;
+    margin: 4% auto;
+    height: 50%;
+    background: white;
+    box-shadow: 2px 2px 5px rgba(124, 122, 122, 0.712);
+    box-sizing: border-box;
+    border-radius: 10px;
+    display:table;
+    overflow-y: auto !important;
+}
+#add-value-container table {
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    overflow-y: auto !important;
+}
+
+#add-value-container table td{
+    padding: 20px;
+}
+
+#add-value-container table input{
+    width: 90%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px gray;
+    outline: none;
+}
+
+#add-value-container table button{
+    padding: 0.7rem 0rem;
+    width: 12em;
+}
+
+/* view-value-container */
+
+#view-value-container {
+    font-size: 1rem;
+    width: 90%;
+    text-align: right;
+    margin: 4% auto;
+    height: 84%;
+    background: white;
+    box-shadow: 2px 2px 5px rgba(124, 122, 122, 0.712);
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* display:table; */
+}
+#changelook{
+    height: 86%;
+    overflow: auto;
+}
+#view-value-container table {
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    overflow-y: auto !important;
+}
+
+#view-value-container table td{
+    padding: 15px;
+    border: 1px solid black;
+}
+
+#view-value-container table input{
+    width: 90%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px gray;
+    outline: none;
+}
+
+#view-value-container table button{
+    padding: 0.5rem 0rem;
+    width: 12em;
+}
+#view-value-container table button {
+    background: rgb(66, 182, 70);
+    border: none;
+    padding: 0.8em;
+    width: 6em;
+    border-radius:10px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 0.9em;
+}
+#view-value-container table button:hover {
+    box-shadow: -4px 5px 6px rgba(109, 106, 106, 0.452);
+}
+#message-box {
+    position: absolute;
+    top: 6em;
+    right: 5em;
+    padding: 10px;
+    background: rgba(66, 182, 70, 0.979);
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    animation: slide-in 0.5s ease-in;
+    display: none;
+}
+
+#quiz-category-field,
+#Topic-name,
+#Category-name  {
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    background: white;
+    border: 2px solid rgba(128, 128, 128, 0.521);
+    box-shadow: 3px 3px 4px gray;
+    font-weight: bold;
+    color: rgba(97, 97, 97, 0.952);
+}
+#quiz-category-field option,
+#Topic-name option,
+#Category-name option {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.shake-smile:hover{
+    animation: shake 0.1s infinite;
+}
+
+
+@keyframes shake {
+    from {
+        transform: translateX(5px) translateY(5px)
+    }
+    to{
+        transform: translateX(0px) translateY(0px)
+    }
+    
+}
+
+@keyframes slide-in {
+    from {
+        right: -10em;
+    }
+    to{
+        right: 5em;
+    }
+    
+}

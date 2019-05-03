@@ -1,0 +1,229 @@
+
+#main-quiz-ui {
+    height: 100vh;
+    width: 100vw;
+    background: url('section.jpg');
+    box-sizing: border-box;
+}
+
+#main-quiz-ui-container{
+    padding: 8% 0px;
+    box-sizing: border-box;
+}
+
+#tabs-container {
+    height: 300px;
+    width: 100%;
+    padding: 3%;
+    margin: 0px auto;
+    text-align: center;
+    filter: blur(0px);
+    box-sizing: border-box;
+}
+
+.tab {
+    width: 200px;
+    height: 200px;
+    color: rgba(31, 29, 29, 0.932);
+    background: rgba(5, 5, 5, 0.301);
+    display: inline-block;
+    margin: 0px 4%;
+    box-sizing: border-box;
+    padding: 5% 0px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    animation: zoom-in-box 1.5s infinite;
+    border-radius: 10px;
+
+}
+
+#footer-home-section {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1.2em;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0px auto;
+    background: linear-gradient(to right, rgba(235, 220, 132, 0.733),rgba(255, 255, 0, 0.801));
+    box-sizing: border-box;
+}
+
+#section-view-container {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(233, 236, 233);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#original-content {
+    background: rgb(233, 236, 233);
+    width: 20vw;
+    height: 100vh;
+    overflow: auto;
+    box-sizing: border-box;
+    border-right: 1px solid gray;
+    overflow-y: scroll;
+    display: inline-block;
+}
+#view-contents,
+#view-sub-contents {
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#view-contents td {
+    padding: 0.3rem;
+}
+#header-table {
+    padding: 1.5rem;
+}
+#new-sub-section{
+    background:rgb(233, 236, 233);
+    display: inline-block;
+    width: 80vw;
+    height: 100vh;
+}
+#test-button {
+    background: rgb(66, 182, 70);
+    border: none;
+    padding: 0.8em;
+    width: 9em;
+    border-radius:10px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    font-size: 0.9em;
+}
+#test-button:hover {
+    box-shadow: -4px 5px 6px rgba(109, 106, 106, 0.452);
+}
+
+#test-container-field{
+    width: 100vw;
+    height: 100vh;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+#header-quiz {
+    padding: 0.5em 0em;
+    text-align: right;
+    box-shadow: 5px 2px 5px gray;
+}
+
+#header-quiz button{
+    padding: 0.8em;
+    margin: 0em 1em;
+    width: 14em;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background: rgb(31, 179, 31);
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    font-size: 75%;
+}
+
+#header-quiz button:hover {
+    background: rgba(31, 179, 31, 0.767);
+}
+
+#questions-list {
+    margin: 6% 2%;
+    box-shadow: 5px 2px 5px gray;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+}
+
+#test-container-field li {
+    font-size: 90%;
+    cursor: pointer;
+}
+#test-container-field li div {
+    padding: 1% 4%;
+    width: 5em;
+    border-radius: 12px;
+}
+#test-container-field li div:hover {
+    color: white;
+    background: rgba(31, 179, 31, 0.767);
+}
+#active-answer {
+    color: white;
+    background: rgba(31, 179, 31, 0.767);
+}
+
+#footer-quiz {
+    text-align: right;
+}
+
+#footer-quiz button,
+#footer-conatiner-test button {
+    margin: 0% 1%;
+    padding: 10px;
+    width: 10%;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background: rgb(31, 179, 31);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 75%;
+    outline:none;
+}
+
+#footer-quiz button:hover,
+#footer-conatiner-test button:hover {
+    background: rgba(31, 179, 31, 0.767);
+}
+
+#disp-end-message{
+    text-align: center;
+    padding: 10%;
+}
+
+#greeting-msg {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+#displayArea {
+    padding: 2rem;
+    font-size: 1.2rem;
+    width: 90%;
+    margin: 0px auto;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.493);
+    box-sizing: border-box;
+}
+#displayArea div {
+    padding: 1rem;
+}
+#footer-conatiner-test {
+    width: 90%;
+    text-align: right;
+    font-size: 1.1rem;
+    margin: 1rem;
+}
+
+@keyframes zoom-in-box {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

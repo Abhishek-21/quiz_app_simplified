@@ -1,0 +1,37 @@
+@import url("https://use.fontawesome.com/releases/v5.7.0/css/all.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+#invalid-user-container {
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    padding: 15% 0px;
+    box-sizing: border-box;
+}
+#invalid-user-container table {
+    margin: 0 auto;
+    color: white;
+    background: rgba(0, 0, 0, 0.719);
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.616);
+}
+#invalid-user-container table td {
+    padding: 25px;
+}
+#invalid-user-container table a {
+    text-decoration: none;
+    color: white;
+}
+#invalid-user-container table a span {
+    background: rgba(0, 128, 0, 0.89);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+#invalid-user-container table a span:hover {
+    background: rgba(0, 128, 0, 0.562);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}

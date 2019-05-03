@@ -1,0 +1,61 @@
+
+#login-container-align {
+  height: 100vh;
+  background: url('7_11.jpg');
+  padding: 18% 0px;
+  box-sizing: border-box;
+}
+#login-container {
+  width: 35%;
+  margin: 0px auto;
+  box-sizing: border-box;
+  color: white;
+  background: rgba(0, 0, 0, 0.877);
+  border-radius: 10px;
+}
+#login-container table {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+#login-container table tr td {
+  padding: 3%;
+}
+#login-container table tr td input {
+  width: 100%;
+  border: none;
+  padding: 5px 5px;
+  font-weight: bold;
+  border-radius: 3px;
+  outline: none;
+}
+
+#login-container table tr td input[type=submit] {
+  width: 20%;
+}
+
+#path-button {
+  width: 90%;
+  background: rgba(0, 0, 0, 0.684);
+  margin: 0px auto;
+}
+#submit-button {
+  background: rgba(128, 128, 128, 0.486);
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+  animation-fill-mode: forwards !important;
+}
+
+
+@keyframes slide {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 50%;    
+  }
+  100% {
+    margin-left: 90%;    
+  }
+}
